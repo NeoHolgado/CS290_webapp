@@ -1,0 +1,39 @@
+/* Defines the font-family, background-color, color, margin, and padding for the app. */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: orange;
+  color: #333;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+/* Updates border, color, and padding of table/rows */
+th {
+  background-color: black;
+  color: white;
+  padding: 3px; 
+  border: 1px solid #ddd; 
+  text-align: left; 
+}
+
+td {
+  padding: 12px; 
+  border: 1px solid #ddd; 
+  color: #333; 
+  background-color: white;
+}
+
+/* Sets font-family for input and buttons */
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  background-color: purple;
+}
